@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E-Commerce Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #1e1e1e;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #897b7b;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: white;
+            width: 230px;
+            margin: 15px;
+            padding: 15px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(200, 159, 159, 0.1);
+        }
+
+        .product img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .price {
+            color: green;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 8px 14px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            background-color: #1e1e1e;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>My E-Commerce Store</h1>
+    <p>Online Shopping Website</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">Cart</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+    <!-- Mobile -->
+    <div class="product">
+        <img src="https://i.pinimg.com/736x/06/fd/a9/06fda996c493a997ece2317d4f8fd4e3.jpg" alt="Mobile Phone">
+        <h3>Mobile Phone</h3>
+        <p class="price">₹15,000</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <!-- Headphone -->
+    <div class="product">
+        <img src="https://i.pinimg.com/736x/40/e5/5b/40e55bf73e13b668e77a980b183ed577.jpg" alt="Headphone">
+        <h3>Headphones</h3>
+        <p class="price">₹2,000</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <!-- Laptop -->
+    <div class="product">
+        <img src="https://i.pinimg.com/736x/64/25/d9/6425d9533e83434d24d667db3dbe79bf.jpg" alt="Laptop">
+        <h3>Laptop</h3>
+        <p class="price">₹45,000</p>
+        <button>Add to Cart</button>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 My E-Commerce Website</p>
+</footer>
+
+</body>
+</html>
